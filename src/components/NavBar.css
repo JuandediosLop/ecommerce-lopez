@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #162C40;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo{
+    width: 30px;
+}
+nav a{
+    margin-left: 35px;
+}
+nav a:last-child{
+    margin-top: 5px;
+    
+}
