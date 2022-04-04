@@ -1,0 +1,45 @@
+.agregarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.controles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 35px;
+}
+.controles button{
+    margin: 0 10px;
+    font-size: 35px;
+    padding: 0px 10px;
+    border: none;
+    background-color: #fff;
+}
+.controles button:hover{
+    cursor: pointer;
+    color: #3C74A6;
+}
+.controles h2{
+    font-size: 30px;
+    margin: 0 30px;
+}
+
+.agregarItem .añadir{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: #3C74A6;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
