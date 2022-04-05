@@ -21,7 +21,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
             alert("No hay stock disponible");
         }
         else if(stock > initial){
-            onAdd({contador});
+            onAdd(contador);
         }
     }
 
@@ -33,6 +33,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
                     <h2>{contador}</h2>
                     <button onClick={restarContador}>-</button>
                 </div>
+                
                 <button className="añadir" onClick={validarOnAdd}>Añadir</button>
             </div>
             

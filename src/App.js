@@ -1,6 +1,6 @@
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
-import { ContenedorMain } from "./components/ItemListContainer";
+import { ItemListContainer } from "./components/ItemListContainer";
 
 function App() {
   const links = [
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <NavBar links={links}></NavBar>
-      <ContenedorMain greeting={saludo}></ContenedorMain>
+      <ItemListContainer greeting={saludo}></ItemListContainer>
     </>
   );
 }

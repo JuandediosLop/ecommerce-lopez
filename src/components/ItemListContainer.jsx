@@ -2,9 +2,9 @@ import React from "react";
 import './ItemListContainer.css';
 import ItemCount from "./ItemCount";
 
-export const ContenedorMain = ({ greeting }) => {
+export const ItemListContainer = ({ greeting }) => {
 
-  const onAdd = ({contador}) => {
+  const onAdd = (contador) => {
     alert("Se añadio un item con : " + contador);
   }
 
