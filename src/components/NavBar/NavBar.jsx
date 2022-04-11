@@ -1,5 +1,5 @@
+import React from 'react';
 import './NavBar.css';
-import logo from '../../img/caja-de-carton.png'
 import CartWidget from './CartWidget';
 
 const NavBar = ({ links}) => {
@@ -7,7 +7,7 @@ const NavBar = ({ links}) => {
   return (
     <>
       <header>
-        <a className='brand' href="index.html"> <img src={logo} alt="Logo" className='logo' /></a>
+        <a className='brand' href="index.html"> <img src="./img/caja-de-carton.png" alt="Logo" className='logo' /></a>
         <nav>
           
           { 
